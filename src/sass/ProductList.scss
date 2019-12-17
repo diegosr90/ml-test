@@ -1,0 +1,9 @@
+.product-list {
+  .product {
+    cursor: pointer;
+    &__thumb {
+      width: 250px;
+      height: 284px;
+    }
+  }
+}

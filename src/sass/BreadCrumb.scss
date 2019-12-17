@@ -1,0 +1,7 @@
+.breadcrumb {
+  background: transparent !important;
+
+  & > .breadcrumb-item + .breadcrumb-item:before {
+    content: "> ";
+  }
+}
