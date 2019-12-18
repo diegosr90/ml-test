@@ -1,8 +1,8 @@
 import { RouteComponentProps } from "react-router";
+import { clientService } from "./client.service";
 import Home from "./components/home/Home";
 import ProductList from "./components/products/list/ProductList";
 import Product from "./components/products/product/Product";
-import { clientService } from "./client.service";
 
 type CallbackPromise<T> = (...arg: any[]) => Promise<T>;
 export interface CustomRoute {

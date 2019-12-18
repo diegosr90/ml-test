@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
+import React from "react";
 import { Redirect } from "react-router";
 import { Route, Switch } from "react-router-dom";
 import Search from "./components/search/Search";
