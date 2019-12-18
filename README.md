@@ -9,3 +9,9 @@ El repo contiene una web app hecha con React. Contiene 3 rutas navegables:
 
 ### Arquitectura
 Uno de los objetivos de esta aplicación fue tener en cuenta SEO, así se diseñó para que contemple Server-side Rendering (SSR) usando Express como web server, Webpack como compilador de bundles. En cuanto al desarrollo, se usa Typescript. Para estilos SASS, utilizando como framework de estilos Bootstrap.
+
+### Uso
+Para correr la app: 
+**npm**
+
+    npm run build && npm start
